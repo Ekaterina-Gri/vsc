@@ -72,9 +72,16 @@ h1, h2 {
     margin-bottom: 30px;
 }
 
-.int {
+.imgs {
     display: flex;
     justify-content: space-around;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .block2 {
@@ -88,4 +95,45 @@ h1, h2 {
     padding-bottom: 5px;
     padding-top: 5px;
     margin-top: 60px;
+}
+
+.link {
+    color: rgb(216, 112, 181);
+    cursor: pointer;   
+}
+
+.voise {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.input {
+    border: 1px solid rgb(216, 112, 181);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(216, 112, 181);
+    font-size: 15px;
+}
+
+.quest {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 1px solid rgb(216, 112, 181);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(216, 112, 181);
+    font-size: 15px;
+}
+
+.button {
+    background-color: rgb(216, 112, 181);
+    border: 1px solid rgb(216, 112, 181);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0 auto;
 }
